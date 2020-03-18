@@ -1,0 +1,10 @@
+.\objects\stm32f4xx_fsmc.o: ..\FWLIB\src\stm32f4xx_fsmc.c
+.\objects\stm32f4xx_fsmc.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+.\objects\stm32f4xx_fsmc.o: ..\PROJ\stm32f4xx.h
+.\objects\stm32f4xx_fsmc.o: ..\CORE\core_cm4.h
+.\objects\stm32f4xx_fsmc.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_fsmc.o: ..\CORE\core_cmInstr.h
+.\objects\stm32f4xx_fsmc.o: ..\CORE\core_cmFunc.h
+.\objects\stm32f4xx_fsmc.o: ..\CORE\core_cm4_simd.h
+.\objects\stm32f4xx_fsmc.o: ..\FWLIB\inc\system_stm32f4xx.h
+.\objects\stm32f4xx_fsmc.o: ..\FWLIB\inc\stm32f4xx_rcc.h

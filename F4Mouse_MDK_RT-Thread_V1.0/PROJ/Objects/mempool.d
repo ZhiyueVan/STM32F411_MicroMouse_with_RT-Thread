@@ -1,0 +1,11 @@
+.\objects\mempool.o: ..\OS\RT-Thread_src\mempool.c
+.\objects\mempool.o: ..\OS\RT-Thread_include\rthw.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\mempool.o: ..\PROJ\rtconfig.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\mempool.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\mempool.o: ..\OS\RT-Thread_include\finsh\finsh_api.h

@@ -1,0 +1,11 @@
+.\objects\timer.o: ..\OS\RT-Thread_src\timer.c
+.\objects\timer.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\timer.o: ..\PROJ\rtconfig.h
+.\objects\timer.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\timer.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\timer.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\timer.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\timer.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\timer.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\timer.o: ..\OS\RT-Thread_include\finsh\finsh_api.h
+.\objects\timer.o: ..\OS\RT-Thread_include\rthw.h

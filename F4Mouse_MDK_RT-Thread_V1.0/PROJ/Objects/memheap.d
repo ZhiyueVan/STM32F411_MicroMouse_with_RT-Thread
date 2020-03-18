@@ -1,0 +1,11 @@
+.\objects\memheap.o: ..\OS\RT-Thread_src\memheap.c
+.\objects\memheap.o: ..\OS\RT-Thread_include\rthw.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\memheap.o: ..\PROJ\rtconfig.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\memheap.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\memheap.o: ..\OS\RT-Thread_include\finsh\finsh_api.h

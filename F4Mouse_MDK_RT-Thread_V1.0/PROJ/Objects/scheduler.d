@@ -1,0 +1,11 @@
+.\objects\scheduler.o: ..\OS\RT-Thread_src\scheduler.c
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\scheduler.o: ..\PROJ\rtconfig.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\scheduler.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\finsh\finsh_api.h
+.\objects\scheduler.o: ..\OS\RT-Thread_include\rthw.h

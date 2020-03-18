@@ -1,0 +1,17 @@
+.\objects\mem.o: ..\OS\RT-Thread_src\mem.c
+.\objects\mem.o: ..\OS\RT-Thread_include\rthw.h
+.\objects\mem.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\mem.o: ..\PROJ\rtconfig.h
+.\objects\mem.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\mem.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\mem.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mem.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\mem.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\mem.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\mem.o: ..\OS\RT-Thread_include\finsh\finsh_api.h
+.\objects\mem.o: ..\OS\RT-Thread_include\finsh\finsh.h
+.\objects\mem.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mem.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\mem.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mem.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mem.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\string.h

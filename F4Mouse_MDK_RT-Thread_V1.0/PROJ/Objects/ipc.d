@@ -1,0 +1,11 @@
+.\objects\ipc.o: ..\OS\RT-Thread_src\ipc.c
+.\objects\ipc.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\ipc.o: ..\PROJ\rtconfig.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\ipc.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\finsh\finsh_api.h
+.\objects\ipc.o: ..\OS\RT-Thread_include\rthw.h

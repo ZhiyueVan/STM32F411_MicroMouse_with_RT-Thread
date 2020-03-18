@@ -1,0 +1,11 @@
+.\objects\components.o: ..\OS\RT-Thread_src\components.c
+.\objects\components.o: ..\OS\RT-Thread_include\rthw.h
+.\objects\components.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\components.o: ..\PROJ\rtconfig.h
+.\objects\components.o: ..\OS\RT-Thread_include\rtdebug.h
+.\objects\components.o: ..\OS\RT-Thread_include\rtdef.h
+.\objects\components.o: G:\TJPU\KEil2\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\components.o: ..\OS\RT-Thread_include\rtservice.h
+.\objects\components.o: ..\OS\RT-Thread_include\rtm.h
+.\objects\components.o: ..\OS\RT-Thread_include\rtthread.h
+.\objects\components.o: ..\OS\RT-Thread_include\finsh\finsh_api.h
