@@ -1,0 +1,6 @@
+float ADCmv(int AD)
+{
+	float mvdianya;
+	mvdianya = (AD * 3300) / 4096;
+	return mvdianya;
+}电压转换公式

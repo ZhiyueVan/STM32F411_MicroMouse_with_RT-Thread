@@ -37,3 +37,4 @@
 .\objects\main.o: ..\OS\RT-Thread_include\rtm.h
 .\objects\main.o: ..\OS\RT-Thread_include\rtthread.h
 .\objects\main.o: ..\OS\RT-Thread_include\finsh\finsh_api.h
+.\objects\main.o: ..\HARDWARE\inc\MouseDrive_init.h

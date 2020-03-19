@@ -335,9 +335,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_STDPERIPH_DRIVER,STM32F411xE,RTE_USING_FINSH</Define>
+              <Define>USE_STDPERIPH_DRIVER,STM32F411xE,RTE_USING_FINSH,ARM_MATH_CM4, __FPU_PRESENT=1, __FPU_USED =1, __CC_ARM</Define>
               <Undefine></Undefine>
-              <IncludePath>..\PROJ;..\FWLIB\inc;..\CORE;..\OS\RT-Thread_include;..\OS\RT-Thread_include\libc;..\OS\RT-Thread_include\finsh;..\HARDWARE\inc</IncludePath>
+              <IncludePath>..\PROJ;..\FWLIB\inc;..\CORE;..\OS\RT-Thread_include;..\OS\RT-Thread_include\libc;..\OS\RT-Thread_include\finsh;..\HARDWARE\inc;..\DSP_LIB\Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -386,15 +386,35 @@
               <FileType>1</FileType>
               <FilePath>..\APP\main.c</FilePath>
             </File>
+            <File>
+              <FileName>MouseDrive.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MouseDrive.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Hardware</GroupName>
           <Files>
             <File>
+              <FileName>MouseDrive_init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\src\MouseDrive_init.c</FilePath>
+            </File>
+            <File>
               <FileName>usart_init.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\src\usart_init.c</FilePath>
+            </File>
+            <File>
+              <FileName>SPI_init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\src\SPI_init.c</FilePath>
+            </File>
+            <File>
+              <FileName>icm_20948.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\src\icm_20948.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -750,6 +770,16 @@
               <FileName>shell.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\OS\RT-Thread_include\finsh\shell.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>DSP_lib</GroupName>
+          <Files>
+            <File>
+              <FileName>arm_cortexM4lf_math.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\DSP_LIB\arm_cortexM4lf_math.lib</FilePath>
             </File>
           </Files>
         </Group>
